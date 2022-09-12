@@ -5,11 +5,10 @@
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background: grey url('../images/blokje.jpg') repeat;
+  background: grey url(https://static.vecteezy.com/system/resources/thumbnails/008/070/315/small/geometric-low-poly-graphic-repeat-pattern-background-free-vector.jpg) repeat;
 }
 
 header {
-  background: url('../images/headermetlogo.png');
   width: 960px;
   height: 150px;
 }
@@ -18,20 +17,26 @@ header h1 {
   font-size: 300%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
-  text-align: right;
+  text-align: center;
   text-shadow: 5px 5px 7px #000000;
 }
 
 ul {
-  background: #080808;
+  background: #979899;
   padding: 10px;
 }
 
 ul li {
   background: #787878;
   padding: 5px;
-  border: solid 2px white;
+  border: solid 5px #BFC0C2;
+  border-radius: 10px;
   display: inline-block;
+}
+
+ul li:hover {
+  background: #BFC0C2;
+  border-color: #787878;
 }
 
 ul li a {
@@ -39,6 +44,47 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  color: #C0C0C0;
+section {
+  padding: 5px;
+  margin: 5px;
+  border: double 4px black;
+}
+
+section article {
+  border: 3px solid #333333;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: gray;
+}
+
+article h2 {
+  background-color: #999999;
+  border: solid 5px #999999;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+article p {
+  background-color: #a9a9a9;
+  border: solid 5px #a9a9a9;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+footer {
+  background: #aaaaaax;
+}
+
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
 }
