@@ -1,0 +1,98 @@
+ul {
+  position:
+fixed;
+  bottom: 90.5%;
+  left: 0px;
+  background: #979899;
+  width: 100%;
+  height: 50px;
+  z-index: 100;
+}
+
+ul li {
+  background: #787878;
+  padding: 5px;
+  border: solid 5px #BFC0C2;
+  border-radius: 10px;
+  display: inline-block;
+  position:
+relative;
+  left: 30%;
+  top: 5px;
+}
+
+ul li:hover {
+  background: #BFC0C2;
+  border-color: #787878;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+article.zwart {
+  z-index: 1;
+  position:
+fixed;
+  top: 64px;
+  left: 64px;
+  background: black;
+  width: 640px;
+  line-height: 640px;
+}
+
+article.rood {
+  z-index: 2;
+  position:
+fixed;
+top: 64px;
+left: 64px;
+  background: red;
+  width: 320px;
+  line-height:320px;
+}
+
+article.blauw {
+  z-index: 3;
+  position:
+fixed;
+  top: 370px;
+  left: 370px;
+  background: blue;
+  width: 320px;
+  line-height:320px;
+}
+
+article.groen {
+  z-index: 6;
+  position:
+fixed;
+  top: 224px;
+  left: 224px;
+  background: green;
+  width: 320px;
+  line-height:320px;
+}
+
+article.geel1 {
+  z-index: 4;
+  position:
+fixed;
+  top: 64px;
+  left: 384px;
+  background: yellow;
+  width: 64px;
+  line-height:160px;
+}
+
+article.geel2 {
+  z-index: 5;
+  position:
+fixed;
+  top: 384px;
+  left: 64px;
+  background: yellow;
+  width: 160px;
+  line-height:64px;
+}
