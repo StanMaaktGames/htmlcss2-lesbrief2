@@ -1,0 +1,53 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+div.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+header {
+  float: left;
+
+  width: 100%;
+  height: 10vh;
+  background-color: #555555;
+}
+
+nav {
+  clear: left;
+  float: left;
+
+  width: 25%;
+  height: 85vh;
+  background-color: #222222;
+}
+
+section {
+  float: left;
+
+  width: 50%;
+  height: 85vh;
+  background-color: #333333;
+}
+
+aside {
+  float: left;
+
+  width: 25%;
+  height: 85vh;
+  background-color: #444444;
+}
+
+footer {
+  clear: left;
+  float: left;
+
+  width: 100%;
+  height: 5vh;
+  background-color: #555555;
+}
